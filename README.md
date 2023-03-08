@@ -18,13 +18,18 @@
 
 </div>
 
+
 # 🧐 Purpose
 
 This readme file will explain how to host an online resume in a static site. In this guide the online resume site will be powered by **Jekyll** and **Github pages**.  
 
+----
+
 # ⚠️ Prerequisites
 
 To start to use this guide you need to prepare a resume which is written by **markdown**. If you need to know how to use markdown to write a resume here is a nice tutorial about learning markdown in [More Resource](#-more-resource).
+
+----
 
 # ✍️ Instructions
 
@@ -67,17 +72,22 @@ To start to use this guide you need to prepare a resume which is written by **ma
 * Type command ```git commit -m "your own comments"``` to prepare the new push
 * Type command ```git push origin gh-pages``` to push your new content into Github repository 
 
+----
 
 # 📕 More resource
 1. Markdown
    * [Markdown tutorial](https://www.markdowntutorial.com/)
 2. [Modern Technical Writing, *By Andrew Etter*](https://www.amazon.ca/gp/product/B01A2QL9SS/ref=kinw_myk_ro_title)
 3. [Set up site with jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+
+----
+
 # 💛 Acknowledgments
 
 1. [Modern Technical Writing, *By Andrew Etter*](https://www.amazon.ca/gp/product/B01A2QL9SS/ref=kinw_myk_ro_title)
 2. [Jekyll Docs](https://jekyllrb.com/docs/)
 3. [GitHub's Jekyll Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 
+----
 
 # ❓FAQ
