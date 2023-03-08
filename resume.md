@@ -1,6 +1,3 @@
----
-layout: "page"
----
 #### **Chang Geng**
 (+1) 925-205-7511 | changgeng333@gmail.com | Winnipeg,Manitoba,Canada
 
