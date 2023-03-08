@@ -22,7 +22,7 @@
 
 # 🧐 Purpose
 
-This readme file will explain how to host an online resume in a static site. In this guide the online resume site will be powered by **Jekyll** and **Github pages**.  
+This project is a showcase of host resume online by using jekyll and Github pages. it is more than just an online resume site. In this README file it provide an simple approach of how to host an online resume in a static site by steps from preparation of the project to build and deploy the site online. It encourages people to build there online resume to be more attractive during job hunting and also provides a guide of how to use **Jekyll** and **Github pages**.
 
 ----
 
@@ -30,13 +30,15 @@ This readme file will explain how to host an online resume in a static site. In 
 
 To start to use this guide you need to prepare a resume which is written by **markdown**. If you need to know how to use markdown to write a resume here is a nice tutorial about learning markdown in [More Resource](#-more-resource).
 
+Also a Github account is also necessary since the resume will be hosted by Github pages. You can find steps of how to set up your Github account in Instruction step 2.
+
 ----
 
 # ✍️ Instructions
 
 **1. Installation**   
 * Download [Git](https://git-scm.com/download/win)
-* Download [Jekyll](https://jekyllrb.com/docs/)
+* Download [Jekyll](https://jekyllrb.com/docs/) ( simply follow the instructions in jekyll official website)
 * Download [visual studio code](https://code.visualstudio.com/download)   
 
 **2. Set up Github account**   
@@ -48,15 +50,29 @@ To start to use this guide you need to prepare a resume which is written by **ma
 * Then just click Button **Create repository**   
   
 **3. Set up local repository**
-* Find a proper folder then install the jekyll and bundler gems ```gem install jekyll bundler```
-* Create a jekyll site at ./yourname.github.io.```jekyll new yourname.github.io```
+* Find a proper folder then install the jekyll and bundler gems by typing command in terminal:
+  
+  ```
+  gem install jekyll bundler
+  ```
+* Create a jekyll site at **./yourname.github.io**.
+  
+  ```
+  jekyll new yourname.github.io
+  ```
 * Drag your README file and Resume markdown file to this repository
 * Use visual studio code to edit your content in this repository 
 
 
 **4. Push your local repository to Github**
-* use powershell in your local repository, by typing command ```git init```
-* Create a github branch to deploy your site ```git checkout -b gh-pages```
+* use powershell in your local repository, by typing command:
+  ```
+  git init
+  ```
+* Create a github branch to deploy your site by tying command:
+  ```
+  git checkout -b gh-pages
+  ```
 * Push your repository to Github 
 
   ```
@@ -76,9 +92,19 @@ To start to use this guide you need to prepare a resume which is written by **ma
       
 **6. Keep local repository in sync with Github repository**
 * Open terminal and navigate into your local repository
-* Type command ```git add .``` to add updated files
-* Type command ```git commit -m "your own comments"``` to prepare the new push
-* Type command ```git push origin gh-pages``` to push your new content into Github repository 
+* Type command to add updated files
+  ```
+  git add .
+  ``` 
+* Type command to prepare the new push
+  ```
+  git commit -m "your own comments"
+  ```
+* Type command to push your new content into Github repository
+  ```
+  git push origin gh-pages
+  ```
+    
 
 ----
 
