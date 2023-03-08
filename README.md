@@ -58,6 +58,7 @@ To start to use this guide you need to prepare a resume which is written by **ma
 * use powershell in your local repository, by typing command ```git init```
 * Create a github branch to deploy your site ```git checkout -b gh-pages```
 * Push your repository to Github 
+
   ```
   git remote and add https://github.com/username/yourname.github.io.git 
   git add .   
