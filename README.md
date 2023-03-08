@@ -1,18 +1,33 @@
-## Resume site
+# How to host a online Resume on Github
 
+*A simple online resume guide which powered by **Jekyll** and **Github Pages***
 
-## Purpose
+[View Online Resume](http://localhost:4000/changgeng.github.io/)
 
-Show how to generate our resume into static site then deploy it online by step by step instruction
+----
 
-## dependencies
+<div align="center">
+
+**[Purpose](https://github.com/willproj/changgeng.github.io#-Purpose) • 
+[Prerequisites](https://github.com/willproj/changgeng.github.io#-Prerequisites) • 
+[Instructions](https://github.com/willproj/changgeng.github.io#-Instructions) • 
+[Acknowledgments](https://github.com/willproj/changgeng.github.io#-Acknowledgments) • 
+[FAQs](https://github.com/willproj/changgeng.github.io#-FAQs)**
+
+</div>
+
+# 🧐 Purpose
+
+This readme file will explain how to host an online resume by Github page.
+
+# ⚠️ Prerequisites
 
 We need to download [jekyll]() on our system. 
 
-## How to install
+# ✍️ Instructions
 
 
-## How to do host
+# 💛 Acknowledgments
 
 Running locally
 To test locally, run the following in your terminal:
@@ -27,4 +42,4 @@ To test locally, run the following in your terminal:
 * Open your browser to localhost:4000
 
 
-## FAQ
+# ❓FAQ
