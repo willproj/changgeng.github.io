@@ -57,7 +57,13 @@ To start to use this guide you need to prepare a resume which is written by **ma
 **4. Push your local repository to Github**
 * use powershell in your local repository, by typing command ```git init```
 * Create a github branch to deploy your site ```git checkout -b gh-pages```
-* Push your repository to Github ```git remote and add https://github.com/username/yourname.github.io.git``` ```git add .``` ```git commit -m "your own comment"``` ```git push origin gh-pages```  
+* Push your repository to Github 
+  ```
+  git remote and add https://github.com/username/yourname.github.io.git 
+  git add .   
+  git commit -m "your own comment"   
+  git push origin gh-pages
+  ```  
 
 **5.Test your Site**
 * Open windows powershell terminal
