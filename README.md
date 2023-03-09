@@ -122,7 +122,7 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 * You can easily to change the resume content by copy your own resume content into ```index.markdown```file in the local repository. Restart the server and it will show the new content that you change. 
   
 **4. Update and maintainace with Github**
-* You can simply follow the **step 6** from topic above **Host your own resume from scratch**. 
+* You can simply follow the **step 6** from the above topic **Host your own resume from scratch**. 
 ----
 
 
