@@ -12,7 +12,8 @@
 
 **[Purpose](https://github.com/willproj/changgeng.github.io#-Purpose) • 
 [Prerequisites](https://github.com/willproj/changgeng.github.io#%EF%B8%8F-prerequisites) • 
-[Instructions](https://github.com/willproj/changgeng.github.io#%EF%B8%8F-instructions) • 
+[Instructions](https://github.com/willproj/changgeng.github.io#%EF%B8%8F-instructions) •
+[Embellishment](https://github.com/willproj/changgeng.github.io#%EF%B8%8F-instructions) • 
 [More resource](https://github.com/willproj/changgeng.github.io#-more-resource) •
 [Acknowledgments](https://github.com/willproj/changgeng.github.io#-acknowledgments) • 
 [FAQs](https://github.com/willproj/changgeng.github.io#faq)**
@@ -104,7 +105,27 @@ Also a Github account is also necessary since the resume will be hosted by Githu
   ```
   git push origin gh-pages
   ```
-    
+* Once your have initialized your project on Github then you only need to repeat commands in **step 6** to keep
+  your local project in syc with your Github repository.If each time you woud like to see the files that would be changed
+  in your Github respository you can simply type command ```git status .``` to check the changing files after using command
+  ```git add .```
+
+----
+
+
+# 🤩 Embellishment
+  **1.Change jekyll theme**
+  * Navigate to [jekyll theme](https://rubygems.org/search?query=jekyll-theme) web then pick up a theme that you like.
+  * Find **_Gemfile_** in your local repository,copy command under **_GEMFILE_** from website to your local **_Gemfile_**.
+    also change the **theme name** in **__config.yml_**.
+  * Open terminal in your local repository folder.
+  * Type command ```gem install``` to install the theme.
+  * Type command ```bundle exec jekyll serve``` to restart the server to see the new theme.
+  
+  **2.Use jekyll theme template**
+  * Navigate to [jekyll theme template web](https://jekyllthemes.io/free) then pick up a theme template that you like.
+  * Navigate to template source web to follow the installation instruction to apply to your own project.
+  * Here is a [live Demo](https://willproj.github.io/chang.github.io/) by using template.
 
 ----
 
