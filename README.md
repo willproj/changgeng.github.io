@@ -82,7 +82,8 @@ Also a Github account is also necessary since the resume will be hosted by Githu
   git push origin gh-pages
   ```  
 
-**5.Test your Site**
+**5.Add you resume and test your Site**
+* Copy your resume content into ```index.markdown``` file.
 * Open windows powershell terminal
 * Navigate to your local repository
 * Type command ```bundle exec jekyll serve```
