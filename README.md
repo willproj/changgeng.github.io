@@ -129,8 +129,8 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 # 🤩 Embellishment
   **1.Change jekyll theme**
   * Navigate to [jekyll theme](https://rubygems.org/search?query=jekyll-theme) web then pick up a theme that you like.
-  * Find **_Gemfile_** in your local repository,copy command under **_GEMFILE_** from website to your local **_Gemfile_**.
-    also change the **theme name** in **__config.yml_**.
+  * Find **_Gemfile_** in your local repository,copy command under **_GEMFILE_** from website to your local ```Gemfile``` file.
+    also change the **theme name** in ```_config.yml``` file.
   * Open terminal in your local repository folder.
   * Type command ```gem install``` to install the theme.
   * Type command ```bundle exec jekyll serve``` to restart the server to see the new theme.
