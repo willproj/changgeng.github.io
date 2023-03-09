@@ -13,7 +13,7 @@
 **[Purpose](https://github.com/willproj/changgeng.github.io#-Purpose) • 
 [Prerequisites](https://github.com/willproj/changgeng.github.io#%EF%B8%8F-prerequisites) • 
 [Instructions](https://github.com/willproj/changgeng.github.io#%EF%B8%8F-instructions) •
-[Embellishment](https://github.com/willproj/changgeng.github.io#%EF%B8%8F-instructions) • 
+[Embellishment](https://github.com/willproj/changgeng.github.io#-embellishment) • 
 [More resource](https://github.com/willproj/changgeng.github.io#-more-resource) •
 [Acknowledgments](https://github.com/willproj/changgeng.github.io#-acknowledgments) • 
 [FAQs](https://github.com/willproj/changgeng.github.io#faq)**
