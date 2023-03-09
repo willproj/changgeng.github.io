@@ -36,7 +36,7 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 ----
 
 # ✍️ Instructions
-
+## Host your own resume from scratch
 **1. Installation**   
 * Download [Git](https://git-scm.com/download/win)
 * Download [Jekyll](https://jekyllrb.com/docs/) ( simply follow the instructions in jekyll official website)
@@ -61,9 +61,8 @@ Also a Github account is also necessary since the resume will be hosted by Githu
   ```
   jekyll new yourname.github.io
   ```
-* Drag your README file and Resume markdown file to this repository
+* Drag your **README.md** file and **resume.md** to this repository
 * Use visual studio code to edit your content in this repository 
-
 
 **4. Push your local repository to Github**
 * use powershell in your local repository, by typing command:
@@ -91,7 +90,7 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 * The page will be seen if it is correctly been set.
 * To stop the server, get into the terminal by pressing ***ctrl-c***.Then type ***Y*** and ***enter*** to stop the running server.
       
-**6. Keep local repository in sync with Github repository**
+**6. Update and maintainace with Github**
 * Open terminal and navigate into your local repository
 * Type command to add updated files
   ```
@@ -109,7 +108,21 @@ Also a Github account is also necessary since the resume will be hosted by Githu
   your local project in syc with your Github repository.If each time you woud like to see the files that would be changed
   in your Github respository you can simply type command ```git status .``` to check the changing files after using command
   ```git add .```
+## Host your own resume by using this Demo
+**1. Fork this project to your own Github account**
+* Click **_Fork_** on the top-right position of the project repository webpage.   
 
+**2. Installation**
+* Navigate to your own copy of this project in your Github repositories section
+* Open terminal in your local folder that you choose to build project and type ```git clone https://github.com/willproj/changgeng.github.io.git``` to copy the project into local folder.   
+
+**3.Test the site**
+* Type ```cd changgeng.github.io``` to step into local repository. Type ```bundle install``` to install all dependencies. Type ```bundle exec jekyll serve``` to start the server of the project. 
+* Then you can go to ```localhost:4000/changgeng.github.io/``` to review the online resume.
+* You can easily to change the resume content by copy your own resume content into ```index.markdown```file in the local repository. Restart the server and it will show the new content that you change. 
+  
+**4. Update and maintainace with Github**
+* You can simply follow the **step 6** from topic above **Host your own resume from scratch**. 
 ----
 
 
