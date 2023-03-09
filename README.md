@@ -4,7 +4,7 @@
 
 ![GIF](/asset/gifs/resumegif.gif)
 
-[View Online Resume](http://localhost:4000/changgeng.github.io/)
+[View Online Resume](https://willproj.github.io/changgeng.github.io/)
 
 ----
 
