@@ -149,6 +149,7 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 3. [Set up site with jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 4. [free jekyll themes](https://rubygems.org/search?query=jekyll-theme)
 ----
+5. [free jekyll theme templates](https://jekyllthemes.io/free)
 
 # 💛 Acknowledgments
 
@@ -164,7 +165,7 @@ Also a Github account is also necessary since the resume will be hosted by Githu
    * Github may take few miniutes to set up the page.Try to wait for some minites.
    * Navigate into your project repository on Github. You will see **Action** task bar below the name of your project.Click it you will see the running deployment and history deployment records.
    * Try to test localhost by your local repository. Make sure it runs well by localhost.
-   * When update the Github repository by push local repository. Make sure use the right command which push content to **gh-pages** not **main**. Use ```git push origin gh-pages``` not ```git push origin main``` 
+   * When update the Github repository by push local repository. Make sure use the right command which push content to **gh-pages** branch instead of **main** branch . Make sure you use ```git push origin gh-pages``` instead of ```git push origin main``` 
     
 2. Why use command lines to keep local repository in sync with Github?
    * Github does have drag-drop feature to maintain the project while use git commands will be more easy to keep it in sync.
