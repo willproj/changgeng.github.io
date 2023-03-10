@@ -163,7 +163,7 @@ Also, a Github account is also necessary since the resume will be hosted by Gith
 
 # ❓FAQ
 
-1. I have deployed site on Github pages but still cannot see it.
+1. Why is my resume not showing up.
    * GitHub may take a few minutes to set up the page. Try to wait for some minutes.
    * Navigate into your project repository on GitHub. You will see **Action** task bar below the name of your project. Click it you will see the running deployment and history deployment records.
    * Try to test localhost by your local repository. Make sure it runs well by localhost.
@@ -172,5 +172,10 @@ Also, a Github account is also necessary since the resume will be hosted by Gith
 2. Why use command lines to keep local repository in sync with Github?
    * Github does have a drag-drop feature to maintain the project while using git commands will be easier to keep it in sync.
    * Using git commands can make sure each file in the local repository is in sync with Github. While use drag-drop feature may cause a miss of files.
+  
+3. Why is Markdown better than a word processor?
+   * It provides an easy way to format work without finding specific formats like in word doc.
+   * The formats used by markdown are clearly shown which can let people know which format is used.
+   * Markdown files can be easy to be converted to other formats such as HTML etc.
 
 
