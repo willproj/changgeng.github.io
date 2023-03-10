@@ -134,6 +134,7 @@ Also a Github account is also necessary since the resume will be hosted by Githu
     also change the **theme name** in ```_config.yml``` file.
   * Open terminal in your local repository folder.
   * Type command ```gem install``` to install the theme.
+  * Find the layout requirement in jekyll theme repository, change the layout in ```index.markdown``` to keep compatible with jekyll theme. You can find the layout format in folder **_layout** of theme repository
   * Type command ```bundle exec jekyll serve``` to restart the server to see the new theme.
   
   **2.Use jekyll theme template**
