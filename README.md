@@ -158,6 +158,7 @@ Also, a Github account is also necessary since the resume will be hosted by Gith
 2. [Jekyll Docs](https://jekyllrb.com/docs/)
 3. [GitHub's Jekyll Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 4. [jekyll theme hacker](https://github.com/pages-themes/hacker)
+5. Group members: Robert Loader, Michael Akpan, Kehinde Elukanle 
 ----
 
 # ❓FAQ
