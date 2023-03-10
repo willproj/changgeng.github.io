@@ -150,9 +150,8 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 2. [Modern Technical Writing, *By Andrew Etter*](https://www.amazon.ca/gp/product/B01A2QL9SS/ref=kinw_myk_ro_title)
 3. [Set up site with jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 4. [free jekyll themes](https://rubygems.org/search?query=jekyll-theme)
-----
 5. [free jekyll theme templates](https://jekyllthemes.io/free)
-
+----
 # 💛 Acknowledgments
 
 1. [Modern Technical Writing, *By Andrew Etter*](https://www.amazon.ca/gp/product/B01A2QL9SS/ref=kinw_myk_ro_title)
