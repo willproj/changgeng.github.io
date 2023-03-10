@@ -23,7 +23,7 @@
 
 # 🧐 Purpose
 
-This project is a showcase of host resume online by using jekyll and Github pages. it is more than just an online resume site. In this README file it provide an simple approach of how to host an online resume in a static site by steps from preparation of the project to build and deploy the site online. It encourages people to build there online resume to be more attractive during job hunting and also provides a guide of how to use **Jekyll** and **Github pages**.
+This project is a showcase of hosting a resume online by using Jekyll and Github pages. it is more than just an online resume site. This README file provides a simple approach to how to host an online resume in a static site by steps from the preparation of the project to building and deploying the site online. It encourages people to build their online resume to be more attractive during job hunting and also provides a guide on how to use **Jekyll** and **Github pages**.
 
 ----
 
@@ -31,7 +31,7 @@ This project is a showcase of host resume online by using jekyll and Github page
 
 To start to use this guide you need to prepare a resume which is written by **markdown**. If you need to know how to use markdown to write a resume here is a nice tutorial about learning markdown in [More Resource](#-more-resource).
 
-Also a Github account is also necessary since the resume will be hosted by Github pages. You can find steps of how to set up your Github account in Instruction step 2.
+Also, a Github account is also necessary since the resume will be hosted by Github pages. You can find steps on how to set up your GitHub account in Instruction step 2.
 
 ----
 
@@ -45,13 +45,13 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 **2. Set up Github account**   
 
 * Sign up an Github account
-* Navigating your Github main page to find a **green new button**
+* Navigate to your Github main page to find a **green new button**
 * Create an empty repository
 * Name your repository as format: **yourname.github.io**
 * Then just click Button **Create repository**   
   
 **3. Set up local repository**
-* Find a proper folder then install the jekyll and bundler gems by typing command in terminal:
+* Find a proper folder then install the Jekyll and bundler gems by typing command in terminal:
   
   ```
   gem install jekyll bundler
@@ -65,7 +65,7 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 * Use visual studio code to edit your content in this repository 
 
 **4. Push your local repository to Github**
-* use powershell in your local repository, by typing command:
+* Use terminal in your local repository, by typing command:
   ```
   git init
   ```
@@ -105,9 +105,9 @@ Also a Github account is also necessary since the resume will be hosted by Githu
   ```
   git push origin gh-pages
   ```
-* Once your have initialized your project on Github then you only need to repeat commands in **step 6** to keep
-  your local project in syc with your Github repository.If each time you woud like to see the files that would be changed
-  in your Github respository you can simply type command ```git status .``` to check the changing files after using command
+* Once you have initialized your project on GitHub then you only need to repeat commands in **step 6** to keep
+  your local project in sync with your GitHub repository.If each time you would like to see the files that would be changed
+  in your GitHub repository, you can simply type the command ```git status .``` to check the changing files after using the command
   ```git add .```
 ## Host your own resume by using this Demo
 **1. Fork this project to your own Github account**
@@ -120,7 +120,7 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 **3.Test the site**
 * Type ```cd changgeng.github.io``` to step into local repository. Type ```bundle install``` to install all dependencies. Type ```bundle exec jekyll serve``` to start the server of the project. 
 * Then you can go to ```localhost:4000/changgeng.github.io/``` to review the online resume.
-* You can easily to change the resume content by copy your own resume content into ```index.markdown```file in the local repository. Restart the server and it will show the new content that you change. 
+* You can easily change the resume content by copying your own resume content into ```index.markdown```file in the local repository. Restart the server and it will show the new content that you change. 
   
 **4. Update and maintainace with Github**
 * You can simply follow the **step 6** from the above topic **Host your own resume from scratch**. 
@@ -163,13 +163,13 @@ Also a Github account is also necessary since the resume will be hosted by Githu
 # ❓FAQ
 
 1. I have deployed site on Github pages but still cannot see it.
-   * Github may take few miniutes to set up the page.Try to wait for some minites.
-   * Navigate into your project repository on Github. You will see **Action** task bar below the name of your project.Click it you will see the running deployment and history deployment records.
+   * GitHub may take a few minutes to set up the page. Try to wait for some minutes.
+   * Navigate into your project repository on GitHub. You will see **Action** task bar below the name of your project. Click it you will see the running deployment and history deployment records.
    * Try to test localhost by your local repository. Make sure it runs well by localhost.
-   * When update the Github repository by push local repository. Make sure use the right command which push content to **gh-pages** branch instead of **main** branch . Make sure you use ```git push origin gh-pages``` instead of ```git push origin main``` 
+   * When updating the GitHub repository by pushing the local repository. Make sure to use the right command which pushes content to **gh-pages** branch instead of **main** branch. Make sure you use ```git push origin gh-pages``` instead of ```git push origin main``` 
     
 2. Why use command lines to keep local repository in sync with Github?
-   * Github does have drag-drop feature to maintain the project while use git commands will be more easy to keep it in sync.
-   * Use git commands can make sure each file in local repository be in sync with Github. While use drag-drop feature may cause miss of some files.
+   * Github does have a drag-drop feature to maintain the project while using git commands will be easier to keep it in sync.
+   * Using git commands can make sure each file in the local repository is in sync with Github. While use drag-drop feature may cause a miss of files.
 
 
